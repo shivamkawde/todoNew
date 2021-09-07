@@ -1,0 +1,63 @@
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    background: rebeccapurple;
+}
+.container{
+    position: absolute;
+    left: 36%;
+    top: 24%;
+    height: 23rem;
+    width: 23rem;
+    background: antiquewhite;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.task{
+    font-size: x-large;
+    color:red
+}
+.task2{
+    font-size: x-large;
+    color:red
+}
+.btn{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    bottom: -31px;
+    border-radius: 3rem;
+    padding: 0px;
+    font-size: xxx-large;
+    color: brown;
+}
+.taskBackground{
+    height: 2rem;
+    width: 12rem;
+    padding: 0rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: white;
+}
+.inputs{
+    /* width: 3rem; */
+    position: absolute;
+    top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column
+}
+input{
+    height: 2rem;
+}
+.data{
+    /* display: flex; */
+   
+}
+
+/* #checkbox{
+    width: 3rem;
+    position: absolute;
+    left: -3rem
+} */
